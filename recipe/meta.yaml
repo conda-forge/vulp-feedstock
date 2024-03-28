@@ -1,5 +1,5 @@
 {% set name = "vulp" %}
-{% set version = "2.2.1" %}
+{% set version = "2.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vulp-{{ version }}.tar.gz
-  sha256: 11b19bae5c8dd69dfbf8069cbd8e56d75d031a8ac8c93a4135c27e55f425643e
+  sha256: 08613a37d975a2433340ec994fb4b74d982460a55c70cd3432c1b2bd228e4201
 
 build:
   noarch: python
